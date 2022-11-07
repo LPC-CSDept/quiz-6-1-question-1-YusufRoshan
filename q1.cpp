@@ -23,3 +23,12 @@ f1= f2;
 f2 = temp;
 cout<<"After swap float f1 = "<<f1<<" float f2 = "<<f2<<endl;
 } 
+int main()
+{
+int n1, n2;
+float f1, f2;
+swapTwoValues(n1,n2);
+swapTwoValues(f1,f2);
+
+return 0;
+}
